@@ -1,7 +1,14 @@
 import Image from 'next/image'
-
+import Link from 'next/link'
+import ProductCard from './components/ProductCard'
 export default function Home() {
   return (
-  <main><h1> hello next js</h1></main>
+  <main>
+    <h1> home page</h1>
+    <Link href="/users">Users</Link>
+    <ProductCard/>
+
+  </main>
+
 )
 }
