@@ -22,8 +22,8 @@ const Userspage = async () => {
       </thead>
       <tbody>
       {users.map(user=> <tr key={user.id}>
-      <th>{user.name}</th>
-      <th>{user.name}</th>
+      <td>{user.name}</td>
+      <td>{user.name}</td>
       </tr>)}
       </tbody>
        
